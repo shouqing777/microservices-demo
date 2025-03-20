@@ -1,0 +1,88 @@
+# 编译输出
+/target/
+*/target/
+*/*/target/
+*.class
+
+# 日志文件
+*.log
+logs/
+
+# 包文件
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Node.js 依赖
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+package-lock.json
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+out/
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# IDE - VS Code
+.vscode/
+.code-workspace
+
+# Spring Boot
+spring-boot-*.pid
+.spring-boot-pid
+
+# Eureka 服务器临时文件
+eureka-server/data/
+
+# 配置服务器加密密钥
+config-server/src/main/resources/bootstrap.yml
+config-server/src/main/resources/bootstrap.properties
+**/application-local.yml
+**/application-local.properties
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# 临时文件
+*.swp
+*~
+.#*
+\#*\#
+.*.swp
+.~lock.*

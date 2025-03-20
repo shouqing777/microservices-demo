@@ -1,0 +1,3 @@
+echo "Running pre-commit hook..."
+# 添加您的其他命令，例如:
+# npm run lint
