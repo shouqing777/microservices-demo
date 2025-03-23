@@ -21,10 +21,17 @@ spring:
           uri: lb://order-service
           predicates:
             - Path=/api/orders/**
+        # 添加根路徑路由
+        - id: default-route
+          uri: lb://product-service
+          predicates:
+            - Path=/
+          filters:
+            - RedirectTo=302, /api/products
 
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://eureka-server:8761/eureka/  # 修正Eureka服務器地址
   instance:
     prefer-ip-address: true
