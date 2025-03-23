@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: api-gateway
-        image: {username}/api-gateway:latest
+        image: shouqing777/api-gateway:latest
         ports:
         - containerPort: 8080
         env:

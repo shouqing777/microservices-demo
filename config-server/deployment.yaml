@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: config-server
-        image: {username}/config-server:latest
+        image: shouqing777/config-server:latest
         ports:
         - containerPort: 8888
         env:
